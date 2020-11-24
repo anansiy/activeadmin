@@ -15,6 +15,8 @@ group :development, :test do
   gem "rails", "~> 5.2.3"
   gem "activerecord-jdbcsqlite3-adapter", "~> 52.0", platform: :jruby
 
+  gem "ransack", github: "activerecord-hackery/ransack", branch: "rails_6.1_support"
+
   gem "sprockets-rails"
 
   gem "formtastic", "~> 4.0.rc1"

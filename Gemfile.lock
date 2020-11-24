@@ -1,4 +1,14 @@
 GIT
+  remote: https://github.com/activerecord-hackery/ransack.git
+  revision: 2e110e29c7f93a423d8ae92543ffdfab95535d2d
+  branch: rails_6.1_support
+  specs:
+    ransack (2.3.2)
+      activerecord (>= 5.2.4)
+      activesupport (>= 5.2.4)
+      i18n
+
+GIT
   remote: https://github.com/deivid-rodriguez/activerecord-jdbc-adapter.git
   revision: 0c3355235aee7717a53ab074e283d26e41ae3d76
   branch: try_rails_61
@@ -291,8 +301,6 @@ GEM
     parser (2.7.2.0)
       ast (~> 2.4.1)
     phantomjs (2.1.1.0)
-    polyamorous (2.3.2)
-      activerecord (>= 5.2.1)
     protobuf-cucumber (3.10.8)
       activesupport (>= 3.2)
       middleware
@@ -345,11 +353,6 @@ GEM
       thor (~> 1.0)
     rainbow (3.0.0)
     rake (13.0.1)
-    ransack (2.3.2)
-      activerecord (>= 5.2.1)
-      activesupport (>= 5.2.1)
-      i18n
-      polyamorous (= 2.3.2)
     regexp_parser (1.8.2)
     request_store (1.5.0)
       rack (>= 1.4)
@@ -483,6 +486,7 @@ DEPENDENCIES
   rails (~> 6.1.a)
   rails-i18n
   rake
+  ransack!
   rspec-rails
   rubocop (= 0.93.1)
   rubocop-packaging (= 0.5.1)

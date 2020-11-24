@@ -15,6 +15,8 @@ group :development, :test do
   gem "rails", "~> 6.1.a"
   gem "activerecord-jdbcsqlite3-adapter", "~> 61.a", github: "deivid-rodriguez/activerecord-jdbc-adapter", branch: "try_rails_61", platform: :jruby
 
+  gem "ransack", github: "activerecord-hackery/ransack", branch: "rails_6.1_support"
+
   gem "sprockets-rails"
 
   gem "turbolinks", "~> 5.2"
